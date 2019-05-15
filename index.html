@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Threejs Preview</title>
+    <script src="js/three.js/build/three.js"></script>
+    <script src="js/three.js/examples/js/loaders/OBJLoader.js"></script>
+    <script src="js/three.js/examples/js/controls/OrbitControls.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/preview.js"></script>
+</head>
+
+<body>
+    Select files: <input type="file" name="model" id="chooseFiles"><br><br>
+    <button type="button" id="previewBtn" onclick="previewFiles()">Preview!</button>
+    <div  class = "previewCanvas" id = "previewCanvas" ></div>
+</body>
+
+</html>
